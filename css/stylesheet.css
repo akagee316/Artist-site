@@ -1,0 +1,45 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(4, 100px);
+}
+
+
+
+body {
+	font-family: "Lato", sans-serif;
+	margin-top: 100px;
+    width: 1080px;
+    margin: 0 auto;
+    text-align: center;
+    text-indent: inherit;
+    float: center;
+    text-align: justify;
+    background-color: gainsboro}
+
+topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+topnav a:hover {
+  background-color:white;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+topnav a.active {
+  background-color: green;
+  color: white;
+}
